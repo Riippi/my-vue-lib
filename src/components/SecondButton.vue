@@ -5,7 +5,7 @@
     :class="`${type} ${invert ? 'invert' : ''} ${size}`"
     @click="$emit('click', $event)"
   >
-    <slot>Submit</slot>
+    <slot>Second BUTTON</slot>
   </button>
 </template>
 <script>
